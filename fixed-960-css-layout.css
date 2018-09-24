@@ -1,0 +1,68 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    
+    }
+.container{
+    width: 960px;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+}
+.ninefourzero{
+    width:940px;
+    background-color: lightcoral;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+    height: 90px;
+    padding-top: 40px
+}
+.foursixzero{
+    float: left;
+    width: 460px;
+    padding: 5px;
+    margin: 5px;
+    background-color: lightcoral;
+    height: 80px;
+    padding-top: 30px
+}
+.threedoublezero{
+    float: left;
+    width: 300px;
+    padding: 5px;
+    margin:5px;
+    height: 70px;
+    padding-top: 25px;
+    background-color: lightcoral
+
+}
+.doubletwozero{
+    float: left;
+    width: 220px;
+    padding: 5px;
+    margin:5px;
+    height: 60px;
+    padding-top: 20px;
+    background-color: lightcoral
+
+}
+.onefourzero{
+    float: left;
+    width: 140px;
+    padding: 5px;
+    margin:5px;
+    height: 50px;
+    padding-top: 15px;
+    background-color: lightcoral
+
+}
+.sixzero{
+    float: left;
+    width: 60px;
+    padding: 5px;
+    margin:5px;
+    height: 40px;
+    padding-top: 5px;
+    background-color: lightcoral
+
+}

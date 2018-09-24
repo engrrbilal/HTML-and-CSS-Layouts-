@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/960gs/0/960.css">
+    <!-- <link rel="stylesheet" href="css/960_12_col.css"> -->
+    <title>Layout using 960.gs Grid</title>
+    <style>
+        *{
+            text-align: center
+        }
+        li{
+            display: inline;
+            list-style-type: none;
+            padding: 5px;
+        }
+        #nav,.article,#footer,#feature{
+            background-color: lightgrey;
+            margin-top: 20px;
+            padding: 10px 0px 5px 0px
+        }
+        #feature,.article{
+            height: 100px;
+        }
+        .content{
+            width: 100%;
+            min-width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container_12 prefix">
+        <div class="grid_12">
+            <h1>Logo</h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Products</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="article grid_12" id="feature">
+            <p>Feature</p>
+        </div>
+        <div class="content">
+            <article class="article grid_4">
+                <p>Column One</p>
+            </article>
+            <article class="article grid_4">
+                <p>Column Two</p>
+            </article>
+            <article class="article grid_4">
+                <p>Column Three</p>
+            </article>
+        </div>
+        <div class="grid_12" id="footer">
+            <p>&copy; Copyright 2018</p>
+        </div>
+    </div>
+</body>
+</html>
